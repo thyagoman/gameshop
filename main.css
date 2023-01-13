@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body h2{
+    background-color: rgb(53, 53, 133);
+    color: azure;
+    font-size: 24px;
+    padding:10px ;
+}
+
+.container{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(53, 53, 133);
+    padding: 10px 0;
+    color: azure;
+    font-size: 24px;
+    
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+header nav li {
+    display: inline;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+header nav li:hover{
+    text-decoration: underline;
+}
+
+section li img{
+    height: 24px;
+}
+
+section li{
+    display: inline;
+    margin-top: 10px 10px;
+}
+
+#contact form input,
+button,textarea{
+    display: block;
+    padding: 10px 10px;
+    margin: 10px 0px;
+    outline-style:double;
+}
+
+#contact button:hover{
+    background-color: rgb(53, 53, 133);
+    color: azure;
+    border-radius: 2px;
+}
+
+.copy{
+    background-color: rgb(53, 53, 133);
+    padding: 10px;
+    color: azure;
+    text-align: center;
+}
